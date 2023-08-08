@@ -51,6 +51,12 @@ const menuItems = [
             link: "/session2/practice/flipCoin",
           },
           {
+            key: "RollDice",
+            icon: <ThunderboltOutlined />,
+            label: "RollDice",
+            link: "/session2/practice/rollDice",
+          },
+          {
             key: "SearchForm",
             icon: <ThunderboltOutlined />,
             label: "SearchForm",

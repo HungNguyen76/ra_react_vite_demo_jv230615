@@ -3,6 +3,9 @@ import Breadcrumb from "./components/BreadCrumb";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import './App.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+library.add(fas)
 
 import Router from "./routes";
 
