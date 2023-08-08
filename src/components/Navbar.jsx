@@ -10,6 +10,9 @@ const Navigation = () => {
       <Menu.Item key="session2">
         <Link to="/session2">Session2</Link>
       </Menu.Item>
+      <Menu.Item key="session3">
+        <Link to="/session3">Session3</Link>
+      </Menu.Item>
     </Menu>
   );
 };

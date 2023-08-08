@@ -25,10 +25,16 @@ const menuItems = [
     link: "/demo",
     submenu: [
       {
-        key: "LifeCycle",
+        key: "StateProp",
         icon: <CodeSandboxOutlined />,
         label: "Session2-State&Props",
         link: "/session2/stateProps",
+      },
+      {
+        key: "LifeCycle",
+        icon: <CodeSandboxOutlined />,
+        label: "Session3-LifeCycle&Form",
+        link: "/session3/lifeCycle",
       },
     ],
   },

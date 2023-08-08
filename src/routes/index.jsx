@@ -1,11 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "@/components/Homepage";
 //session2
-import Session2 from "@/pages/session2/demo";
 import Class from "@/pages/session2";
+import Session2 from "@/pages/session2/demo";
 import FlipCoin from "@/pages/session2/practice/Flipcoin/Flipcoin";
 import SearchProduct from "@/pages/session2/practice/SearchProducts/SearchProduct";
 import RollDice from "@/pages/session2/practice/RollDice/RollDice";
+
+//session3
+import LifeCycle from "@/pages/session3";
+import Session3 from "@/pages/session3/demo";
 
 //note
 import Note from "@/components/Note";
@@ -22,6 +26,10 @@ export default function Router() {
         path="/session2/practice/searchForms"
         element={<SearchProduct />}
       />
+      <Route path="/session3" element={<LifeCycle />} />
+
+      <Route path="/session3/lifeCycle" element={<Session3 />} />
+
       <Route path="/note" element={<Note />} />
     </Routes>
   );
