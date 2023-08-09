@@ -70,6 +70,12 @@ const menuItems = [
           },
         ],
       },
+      {
+        key: "session3",
+        icon: <RocketOutlined />,
+        label: "Session3",
+        link: "/session3/loginForm",
+      }
     ],
   },
   {

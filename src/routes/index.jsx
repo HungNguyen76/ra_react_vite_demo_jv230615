@@ -10,6 +10,7 @@ import RollDice from "@/pages/session2/practice/RollDice/RollDice";
 //session3
 import LifeCycle from "@/pages/session3";
 import Session3 from "@/pages/session3/demo";
+import Form from "@/pages/session3/practice/Forms/Form";
 
 //note
 import Note from "@/components/Note";
@@ -29,6 +30,7 @@ export default function Router() {
       <Route path="/session3" element={<LifeCycle />} />
 
       <Route path="/session3/lifeCycle" element={<Session3 />} />
+      <Route path="/session3/loginForm" element={<Form />} />
 
       <Route path="/note" element={<Note />} />
     </Routes>
