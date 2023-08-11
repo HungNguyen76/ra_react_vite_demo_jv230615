@@ -36,6 +36,12 @@ const menuItems = [
         label: "Session3-LifeCycle&Form",
         link: "/session3/lifeCycle",
       },
+      {
+        key: "Hooks",
+        icon: <CodeSandboxOutlined />,
+        label: "Session4-Hooks",
+        link: "/session4/hooks",
+      }
     ],
   },
   {
@@ -75,7 +81,57 @@ const menuItems = [
         icon: <RocketOutlined />,
         label: "Session3",
         link: "/session3/loginForm",
-      }
+      },
+      {
+        key: "session4",
+        icon: <RocketOutlined />,
+        label: "Session4",
+        link: "/session4",
+        submenu: [
+          {
+            key: "useState",
+            icon: <ThunderboltOutlined />,
+            label: "UseState",
+            link: "/session4/hooks/useState",
+          },
+          {
+            key: "useEffect",
+            icon: <ThunderboltOutlined />,
+            label: "UseEffect",
+            link: "/session4/hooks/useEffect",
+          },
+          {
+            key: "useReducer",
+            icon: <ThunderboltOutlined />,
+            label: "UseReducer",
+            link: "/session4/hooks/useReducer",
+          },
+          {
+            key: "useMemo",
+            icon: <ThunderboltOutlined />,
+            label: "UseMemo",
+            link: "/session4/hooks/useMemo",
+          },
+          {
+            key: "useCallback",
+            icon: <ThunderboltOutlined />,
+            label: "UseCallback",
+            link: "/session4/hooks/useCallback",
+          },
+          {
+            key: "useContext",
+            icon: <ThunderboltOutlined />,
+            label: "UseContext",
+            link: "/session4/hooks/useContext",
+          },
+          {
+            key: "useRef",
+            icon: <ThunderboltOutlined />,
+            label: "UseRef",
+            link: "/session4/hooks/useRef",
+          },
+        ],
+      },
     ],
   },
   {
