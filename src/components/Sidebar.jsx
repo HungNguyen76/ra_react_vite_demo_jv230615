@@ -41,6 +41,12 @@ const menuItems = [
         icon: <CodeSandboxOutlined />,
         label: "Session4-Hooks",
         link: "/session4/hooks",
+      },
+      {
+        key: "UIFramework",
+        icon: <CodeSandboxOutlined />,
+        label: "Session5-UIFramework",
+        link: "/session5",
       }
     ],
   },
@@ -132,6 +138,12 @@ const menuItems = [
           },
         ],
       },
+      {
+        key: "session5",
+        icon: <RocketOutlined />,
+        label: "Session5",
+        link: "/session5/uiFramework/layout",
+      }
     ],
   },
   {

@@ -23,6 +23,11 @@ import UseMemo from "@/pages/session4/practice/UseMemo";
 import UseRef from "@/pages/session4/practice/UseRef";
 import Parent from "@/pages/session4/practice/UseContexts/Parent";
 
+//session5
+import Session5 from "@/pages/session5";
+import UIFrame from "@/pages/session5/demo";
+import HomePage from "@/pages/session5/practice/template/Homepage";
+
 //note
 import Note from "@/components/Note";
 
@@ -51,6 +56,11 @@ export default function Router() {
       <Route path="/session4/hooks/useCallback" element={<UseCallback />} />
       <Route path="/session4/hooks/useContext" element={<Parent />} />
       <Route path="/session4/hooks/useRef" element={<UseRef />} />
+
+      <Route path="/session5" element={<Session5 />} />
+      <Route path="/session5/uiFramework" element={<UIFrame />} />
+      <Route path="/session5/uiFramework/layout" element={<HomePage />} />
+
       <Route path="/note" element={<Note />} />
     </Routes>
   );
