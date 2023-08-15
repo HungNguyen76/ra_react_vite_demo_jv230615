@@ -28,6 +28,10 @@ import Session5 from "@/pages/session5";
 import UIFrame from "@/pages/session5/demo";
 import HomePage from "@/pages/session5/practice/template/Homepage";
 
+//session6
+import WordCounter from "../pages/session6/practice/WordCounter/WordCounter";
+
+
 //note
 import Note from "@/components/Note";
 
@@ -60,6 +64,9 @@ export default function Router() {
       <Route path="/session5" element={<Session5 />} />
       <Route path="/session5/uiFramework" element={<UIFrame />} />
       <Route path="/session5/uiFramework/layout" element={<HomePage />} />
+
+      <Route path="/session6/wordCounter" element={<WordCounter />} />
+
 
       <Route path="/note" element={<Note />} />
     </Routes>

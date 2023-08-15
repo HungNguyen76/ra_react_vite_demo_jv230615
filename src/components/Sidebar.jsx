@@ -143,6 +143,12 @@ const menuItems = [
         icon: <RocketOutlined />,
         label: "Session5",
         link: "/session5/uiFramework/layout",
+      },
+      {
+        key: "session6",
+        icon: <RocketOutlined />,
+        label: "Session6",
+        link: "/session6/wordCounter",
       }
     ],
   },
