@@ -60,6 +60,7 @@ textarea {
   max-width: 736px;
   width: 100%;
   border: none;
+  height: 100px;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
   color: #000000;
   padding: 20px;

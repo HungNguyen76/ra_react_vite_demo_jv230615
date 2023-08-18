@@ -149,6 +149,12 @@ const menuItems = [
         icon: <RocketOutlined />,
         label: "Session6",
         link: "/session6/wordCounter",
+      },
+      {
+        key: "session10",
+        icon: <RocketOutlined />,
+        label: "Session10",
+        link: "/session10/shoppingCart",
       }
     ],
   },
